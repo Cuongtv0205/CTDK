@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính doanh so ban hang</title>
+</head>
+<body>
+<script>
+    let a = +prompt('Nhập doanh số tháng (tr VND)');
+    if (a < 30) {
+        alert('Hoa hồng nhận được là:' + (a * 0.03));
+    } else if (a <= 50) {
+        alert('Hoa hồng nhận được là:' + (a * 0.05));
+    } else {
+        alert('Hoa hồng nhận được là:' + (a * 0.08) + (a * 0.03));
+    }
+</script>
+</body>
+</html>
